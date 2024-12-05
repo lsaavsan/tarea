@@ -3,6 +3,13 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-    <h1>Bienvenido a Mi Blog</h1>
-    <p>Este es un blog simple hecho con Flask.</p>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="display-4">Bienvenido a Mi Blog</h1>
+            <p class="lead mt-3">Este es un blog simple hecho con Flask.</p>
+            <a href="{{ url_for('get_all_post') }}" class="btn btn-primary btn-lg mt-4">Ver Posts</a>
+        </div>
+    </div>
+</div>
 {% endblock %}

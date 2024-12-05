@@ -1,33 +1,29 @@
-# cap-2-tarea-2-api-sql
+# tarea
 
-## Configuración del Entorno y Ejecución del Proyecto Flask
+## Errores detectados
++ Agrega redirect
++ Se comenta /home
++ cambiar fetchone() por fetchall()
++ Agrega los methods=['GET', 'POST']
++ Cambia contend por content
++ Cambia ! por ?
++ cambia return redirect(url_for('get_all_post')) por redirect(url_for('get_all_post'))
++ Agrega elif para request.method == "GET":
++ Agrega return render_template('post/create.html') al elif
++ Cambia <str:post_id> por <string:post_id>
++ Cambia (post_id) por (post_id,)
++ Modificar el puerto y completar el host
 
-Este documento describe los pasos necesarios para configurar un entorno de desarrollo virtual, instalar las dependencias del proyecto, y ejecutar la aplicación Flask.
 
-### Prerrequisitos
+### CORREGIR LOS SIGUIENTES ERRORES: 
 
-Asegúrate de tener instalados los siguientes requisitos en tu máquina:
+1. (Realizado) No necesitamos pandas, o al menos no en esa versión. 
+2. (Realizado) Prácticamente todo el archivo app.py contiene errores; las plantillas, en su mayoría, están correctas, pero es necesario o pertinente hacer modificaciones lo puedes hacer.
+3. (Realizado) Faltó importar correctamente la función desde el archivo db.py.
+4. (Realizado)Crea un enlace en base.html para visualizar el favicon.ico en la aplicación; es necesario mover el archivo a la carpeta adecuada.
+5. (Opcional) (Se agrefó atributo required al título y al contenito para que no se realice el submit) Agrega validación para el título; si no se llena, activa un mensaje de alerta, impidiendo el submit. 
 
-- Python 3.x
-- `pip` (la herramienta de instalación de paquetes de Python)
-- `virtualenv` (para crear entornos virtuales)
 
-### 1. Crear un Entorno Virtual, activar el Entorno Virtual com git-bash, instalar las dependencias del requirements.txt y por último ejecutar el aplicativo Flask
-
-```bash
-virtualenv .venv
-source .venv/Scripts/activate
-pip install -r requirements.txt
-python app.py
-```
-
-### *Para desactivar el entorno virtual* `deactivate`
-
-## (SENIOR DEVELOPER) POR FAVOR CORREGIR LOS SIGUIENTES ERRORES: 
-
-1. No necesitamos pandas, o al menos no en esa versión.
-2. Prácticamente todo el archivo app.py contiene errores; las plantillas, en su mayoría, están correctas, pero es necesario o pertinente hacer modificaciones lo puedes hacer.
-3. Faltó importar correctamente la función desde el archivo db.py.
-4. Crea un enlace en base.html para visualizar el favicon.ico en la aplicación; es necesario mover el archivo a la carpeta adecuada.
-5. (Opcional) Agrega validación para el título; si no se llena, activa un mensaje de alerta, impidiendo el submit. 
-
+        git add .
+        git commit -m "fix: errores ....."
+        git push origin main
