@@ -15,6 +15,8 @@ Lutzgardo Saavedra
 + Cambia <str:post_id> por <string:post_id>
 + Cambia (post_id) por (post_id,)
 + Modificar el puerto y completar el host
++ Se modifican templates y se agrega Bootstrap para mejorar la apariencia.
++ Se crean las carpetas static y image, se mueve el archivo favicon.ico al head. link:favicon 
 
 
 ### CORRECCIÓN DE LOS SIGUIENTES ERRORES: 
