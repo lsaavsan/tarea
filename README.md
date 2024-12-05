@@ -1,4 +1,6 @@
-# tarea
+# TAREA
+PYTHON API DEVELOPER
+Lutzgardo Saavedra
 
 ## Errores detectados
 + Agrega redirect
