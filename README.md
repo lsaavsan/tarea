@@ -15,13 +15,13 @@
 + Modificar el puerto y completar el host
 
 
-### CORREGIR LOS SIGUIENTES ERRORES: 
+### CORRECCIÓN DE LOS SIGUIENTES ERRORES: 
 
 1. (Realizado) No necesitamos pandas, o al menos no en esa versión. 
 2. (Realizado) Prácticamente todo el archivo app.py contiene errores; las plantillas, en su mayoría, están correctas, pero es necesario o pertinente hacer modificaciones lo puedes hacer.
 3. (Realizado) Faltó importar correctamente la función desde el archivo db.py.
 4. (Realizado)Crea un enlace en base.html para visualizar el favicon.ico en la aplicación; es necesario mover el archivo a la carpeta adecuada.
-5. (Opcional) (Se agrefó atributo required al título y al contenito para que no se realice el submit) Agrega validación para el título; si no se llena, activa un mensaje de alerta, impidiendo el submit. 
+5. (Se agregó atributo required a los elementos input:text del título y textare para el contenito para que no se realice el submit) Agrega validación para el título; si no se llena, activa un mensaje de alerta, impidiendo el submit. 
 
 
         git add .
